@@ -1,0 +1,51 @@
+:root {
+  --black-color: #282828;
+  --mobs-color: #9b907e;
+  --sand-color: #ddd9ce;
+  --soft-cloud-color: #f4f0e7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+main {
+  background-image: url("./componet//Assent/augustine-wong-li0iC0rjvvg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  font-family: "Cairo";
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

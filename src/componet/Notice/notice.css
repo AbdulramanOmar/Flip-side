@@ -1,0 +1,19 @@
+.notice {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../Assent/5ddsjgfier.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.notice-content {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+.notice-content h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 70px 50px 0 ;
+}

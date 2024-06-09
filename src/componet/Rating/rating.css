@@ -1,0 +1,97 @@
+.reviews {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.rating {
+  background-color: var(--sand-color);
+  padding: 50px 20px 15px 50px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 53%;
+  gap: 40px;
+}
+.cases {
+  background-color: var(--mobs-color);
+  flex: 1 1 47%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.cases > div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  animation: marquee 30s linear infinite;
+  padding: 31px 0;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.rating .rating-imgs img {
+  width: 70px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-left: -30px;
+}
+.rating .rating-imgs img:not(:first-of-type) {
+  margin-left: -30px;
+}
+.rating .rating-imgs {
+  margin-right: 30px;
+}
+.rating .rating-text span svg {
+  color: gold;
+}
+.rating .rating-text span:first-child {
+  color: var(--black-color);
+  margin-right: 10px;
+  font-weight: 600;
+}
+.rating .rating-text span {
+  color: #777;
+}
+.rating .rating-text p {
+  color: #777;
+  margin-top: 2px;
+}
+.cases span {
+  padding: 10px 18px;
+  border-radius: 30px;
+  border: 1px solid var(--soft-cloud-color);
+  margin: 10px ;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.cases div span svg {
+    font-size: 38px;
+    border: 1px solid var(--soft-cloud-color);
+    border-radius: 50%;
+    margin:0 5px;
+    color: var(--soft-cloud-color);
+    padding: 5px;
+}
+@media (max-width:991px) {
+    .reviews {
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    .rating {
+        width: 100%;
+    }
+}
+@media (max-width:575px){
+    .rating {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
