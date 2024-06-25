@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Flip-side/static/css/main.ef6c9595.css",
+    "main.js": "/Flip-side/static/js/main.1b68dab9.js",
+    "static/media/augustine-wong-li0iC0rjvvg-unsplash.jpg": "/Flip-side/static/media/augustine-wong-li0iC0rjvvg-unsplash.06fce3d08a3a2247b5d8.jpg",
+    "static/media/with inthirejpg.jpg": "/Flip-side/static/media/with inthirejpg.8e6672669d6891fccd95.jpg",
+    "static/media/meet 2.webp": "/Flip-side/static/media/meet 2.9cb487819dd77c538d79.webp",
+    "static/media/meet 1.jpg": "/Flip-side/static/media/meet 1.d2fe9304cc17916fe1bd.jpg",
+    "static/media/meet 3.webp": "/Flip-side/static/media/meet 3.0106d0fd83bb21b6fafc.webp",
+    "static/media/team-2.jpg": "/Flip-side/static/media/team-2.0194795373d652a20156.jpg",
+    "static/media/team-4.jpg": "/Flip-side/static/media/team-4.515e107ee0ebcb5aad23.jpg",
+    "static/media/5ddsjgfier.jpg": "/Flip-side/static/media/5ddsjgfier.7d11c523429dd647b909.jpg",
+    "static/media/test.jpg": "/Flip-side/static/media/test.4b929955289c57693ea7.jpg",
+    "static/media/team-3.png": "/Flip-side/static/media/team-3.cb486d940f8d1c1926bd.png",
+    "index.html": "/Flip-side/index.html",
+    "main.ef6c9595.css.map": "/Flip-side/static/css/main.ef6c9595.css.map",
+    "main.1b68dab9.js.map": "/Flip-side/static/js/main.1b68dab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6c9595.css",
+    "static/js/main.1b68dab9.js"
+  ]
+}
